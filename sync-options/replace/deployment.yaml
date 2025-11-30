@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - image: swr.cn-east-3.myhuaweicloud.com/kubesre/gcr.io/heptio-images/ks-guestbook-demo:0.2
-        name: guestbook-ui
+        name: guestbook-ui-rename
         ports:
         - containerPort: 80
